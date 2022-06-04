@@ -3,9 +3,11 @@
 #include <stdlib.h>
 #include <conio.h>
 #include <string.h>
+
 float add[50], sub[50], mul[50], div[50];
 int Ladd[50], Lsub[50], Lmul[50], Ldiv[50]; //Operator Location Array
 int a=0, s=0, m=0, d=0; //Operator Location Array Index
+
 int main(void){
     int max_input_buffer = 200, input_index=0;
     char input[max_input_buffer];
