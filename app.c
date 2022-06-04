@@ -29,10 +29,7 @@ int main(void){
         }
         input_index++;
     }
-    float number;
     //sscanf(&cursor, "%[+-*/]", number);
     //strtof(cursor, &cursor); 
-
-    printf("Number is %f", number);
     return 0;
 }
