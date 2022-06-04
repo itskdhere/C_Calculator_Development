@@ -18,13 +18,13 @@ int main(void){
     {
         switch(input[input_index])
         {
-            case '+': Ladd[a]=*input[input_index]; a++;
+            case '+': Ladd[a]=&input[input_index]; a++;
                     break;
-            case '-': Lsub[s]=*input[input_index]; s++;
+            case '-': Lsub[s]=&input[input_index]; s++;
                     break;
-            case '*': Lmul[m]=*input[input_index]; m++;
+            case '*': Lmul[m]=&input[input_index]; m++;
                     break;
-            case '/': Ldiv[d]=*input[input_index]; d++;
+            case '/': Ldiv[d]=&input[input_index]; d++;
                     break;              
         }
         input_index++;
