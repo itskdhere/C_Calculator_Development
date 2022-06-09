@@ -4,8 +4,8 @@
 #include <conio.h>
 #include <string.h>
 
-float add[50], sub[50], mul[50], div[50];
-int Ladd[50], Lsub[50], Lmul[50], Ldiv[50]; //Operator Location Array
+float add[50], sub[50], mul[50], division[50];
+char *Ladd[50], *Lsub[50], *Lmul[50], *Ldiv[50]; //Operator Location Array
 int a=0, s=0, m=0, d=0; //Operator Location Array Index
 
 int main(void){
@@ -16,7 +16,7 @@ int main(void){
     printf("Enter Values and Operators:\n");
     fgets(input, max_input_buffer , stdin); //Input Sting
     puts(input); //Debug Print Input Sting
-    while(input[input_index] < input_length)
+    while(input_index < input_length)
     {
         switch(input[input_index])
         {
@@ -33,5 +33,6 @@ int main(void){
     }
     //sscanf(&cursor, "%[+-*/]", number);
     //strtof(cursor, &cursor); 
+    
     return 0;
 }
