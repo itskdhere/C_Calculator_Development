@@ -1,0 +1,17 @@
+	int x;
+
+	printf("\nAdd\n");
+	for(x=0; x<a; x++)
+		printf("%p\n", &Ladd[a]);
+
+	printf("\nSub\n");
+	for(x=0; x<s; x++)
+		printf("%p\n", &Lsub[s]);
+
+	printf("\nMul\n");
+	for(x=0; x<m; x++)
+		printf("%p\n", &Lmul[m]);
+
+	printf("\nDiv\n");
+	for(x=0; x<d; x++)
+		printf("%p\n", &Ldiv[d]);
